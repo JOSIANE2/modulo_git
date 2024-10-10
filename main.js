@@ -30,7 +30,7 @@ form.addEventListener('submit', function(e){
         console.log(e.target.value);
         formEValido = numeroValido(e.target.value);
         if (!formEValido) {    
-            num1 .classList.add('error');    
+            num1.classList.add('error');    
             document.querySelector('.error-message').style.display = 'block';
     }else{
         num1.classList.remove('error');
