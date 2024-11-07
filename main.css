@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #c8d6e5;
+    padding: 16 px 0;
+    color: #fff;
+    display: block;
+    border-bottom: 16 px solid;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: italic;
+}
+
+header button {
+    margin-left: 16px;
+}
+
+button {
+    background-color: #009432;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+}
+
+ul {
+    display: block;
+    flex-wrap: wrap;
+}
+
+ul li {
+    list-style: none;
+    position: center;
+    cursor: pointer;
+   
+}
+.riscado {
+    text-decoration: line-through;
+}
+
+
